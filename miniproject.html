@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>googleform</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .form {
+            background-color: rgb(214, 205, 193);
+            color: rgb(83, 80, 255);
+            width: 50%;
+            padding-left: 5px 5px 5px 5px;
+            margin-bottom: 5px 5px;
+        }
+
+        .fa {
+            text-align: center;
+            margin: 5px 5px;
+        }
+
+        .facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .google {
+            background: #7a8634;
+            color: white;
+        }
+
+        .instagram {
+            background: #983b5f;
+            color: white;
+        }
+
+        .toggle-button {
+            width: 50%;
+            background-color: darkturquoise;
+            margin: 2px 5px;
+            padding: 5px 0px;
+            text-align: center;
+            border-radius: 14px;
+            border: 2px solid #256495;
+            cursor: pointer;
+        }
+        .social{
+            text-align: center;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+    <div class="toggle-button">
+        <button type="button">login</button>
+        <button type="button">creataccount</button>
+    </div>
+    <div class="form">
+        <form action="html.html" target="_self" method="get" style="text-align: center;">
+            <input type="text" id="username" name="username" placeholder="username" /><br /> <br />
+            <input type="text" id="email" name="email" placeholder="enter your gmail" /><br /> <br />
+            <input type="password" id="password" name="password" placeholder="enter your password" /><br /> <br />
+            <input type="button" value="creat account" /><br /> <br />
+        </form>
+    </div>
+    <div class="social">
+        <button class="fa facebook">facebook</button>
+        <button class="fa google">google</button>
+        <button class="fa instagram">instagram</button>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing:border-box;
+            }
+            .row::after{
+                content:"";
+                clear: both;
+                display: table;
+            }
+            [class*="col-"]{
+              float: left;
+              padding: 12px;
+            }
+            .header {
+    background-color: tomato;
+    color: teal;
+    border: 1px solid blue;
+    padding: 5px;
+    width: 100%;
+    margin: 4px;
+}
+.brands ol {
+    margin-right: 28px;
+    padding-left: 12px;
+    list-style-type: none;
+    float: left;
+
+}
+.brands li {
+background-color: chocolate;
+color: rgb(184, 11, 132);
+width: 350%;
+float: none;
+border: 3px solid darkgreen;
+border-radius: 14px;
+margin-bottom: 2px;
+}
+
+.devices ul{
+    list-style-type: none;
+    margin: 12px;
+    padding: 12px;
+    float: left;
+}
+.devices li{
+    background-color: violet;
+    color: white;
+    border: 2px solid red;
+    border-radius: 14px;
+    width: 350%;
+    float: none;
+    margin-bottom: 5px;
+   }
+   .devices li:hover {
+background-color: chartreuse;
+   }
+   .footer{
+  background-color: royalblue;
+  color: blanchedalmond;
+  border: 2px solid red;
+  width: 100%;
+  text-align: centre; 
+  padding: 10px;
+   }
+            /* For desktop: */
+           .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+    @media only screen and(max-width: 768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+</style>
+    </head>
+    <body>
+        <div class="header">
+         <h1>my name is saikirandas</h1>
+        </div>
+     <div class="row">
+        <div class="col-3 devices">
+            <ul>
+                <li>laptops</li>
+                <li>mobiles</li>
+                <li>tablets</li>
+            </ul>
+        </div>
+        <div class="col-6"> 
+            <h2>i'm from india</h2>
+            <p>dhilli is the capital of india</p>
+        </div>
+        <div class="col-3">
+         <div class="brands">
+             <ol>
+              <li>levis</li>
+              <li>xyxx</li>
+              <li>puma</li>
+             </ol>
+         </div>
+         </div>
+        </div>
+        <div class="footer">
+            <p>i need to be an engineer with good experince</p>
+        </div>
+        </body>
+</html>

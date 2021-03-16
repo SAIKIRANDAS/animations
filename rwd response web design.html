@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row ::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        #header {
+            background-color: chartreuse;
+            border: 3px solid coral;
+            width: 45%;
+            margin-bottom: 3px;
+            border-radius: 14px;
+            padding: 0px;
+        }
+
+        .food li {
+            width: 25%;
+            background-color: rgb(212, 201, 197);
+            color: rgb(180, 38, 38);
+            margin-bottom: 2px;
+            padding: 8px;
+            box-shadow: turquoise;
+            list-style-type: none;
+        }
+
+        .food li:hover {
+            background-color: yellow;
+        }
+
+
+        .main {
+            border: 3px dashed rgb(199, 119, 14);
+            width: 30%;
+            margin-bottom: 2px;
+            border-radius: 14px;
+            background-color: violet;
+            color: tomato;
+            padding: 2px;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+
+        .footer {
+            background-color: yellowgreen;
+            color: wheat;
+            width: 500px;
+            border: 5px solid pink;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>my name is saikirandas</h1>
+    </div>
+    <div class="row">
+        <div class="main">
+            <h3>im from andhra i need to be an engineer</h3>
+        </div>
+    </div>
+    <div class="food">
+        <ul>
+            <li>breakfast</li>
+            <li>lunch</li>
+            <li>dinner</li>
+        </ul>
+    </div>
+    </div>
+    <div class="footer">i'm ending with this session</div>
+</body>
+
+</html>
