@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+}
+.body{
+ background-image: url("back.jpg");
+}
+.head{
+    border: 2px sold rosybrown;
+    background-color: salmon;
+    color: slateblue;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+.head:hover{
+    background-color: turquoise;
+}
+.unorderd li{ 
+    border: 2px solid springgreen;
+    list-style-type: none;
+    background-color: tomato;
+    margin-bottom:8px;
+    border-radius: 2px;
+    text-align: center;
+}
+.unorderd li:hover{
+    background-color: violet;
+}
+.content{
+    background-color: yellow;
+    border: 2px soid gold;
+    text-align: center;
+}
+.foot{
+    border: 2px solid red;
+    background-color: rosybrown;
+    font-size: 22px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.side{
+    border: 2px solid blueviolet;
+    background-color: cadetblue;
+    text-align: center;
+    float: left;
+}
+
